@@ -4,3 +4,8 @@
 
 nb_articles = 13
 prix_ht = 42.75
+
+taux = 1.077
+calcul_prix = nb_articles * prix_ht * taux
+
+print("Le prix TTC est de", round(calcul_prix, 2), "chf.")
