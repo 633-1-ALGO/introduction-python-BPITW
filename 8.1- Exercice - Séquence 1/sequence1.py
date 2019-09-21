@@ -4,3 +4,10 @@
 
 a = 11
 b = 42
+
+temp = b
+b = a
+a = temp
+
+print("Valeur de b :", b)
+print("Valeur de a :", a)
